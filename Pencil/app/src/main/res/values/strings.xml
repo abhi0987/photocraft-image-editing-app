@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">PHOTOCRAFT - Image Editing App</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_photobucket">PHOTOCRAFT - Image Editing App</string>
+    <string name="title_activity_edit">EditActivity</string>
+    <string name="title_activity_photo_list">Photo_list</string>
+    <string name="title_activity_show__image">Show_Image</string>
+    <string name="title_activity_wallsplash">wallsplash</string>
+    <string name="title_activity_wall_">Wall_Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_fullscreen_image">FullscreenImage</string>
+    <string name="title_activity_full__resolution__image">Full_Resolution_Image</string>
+    <string name="title_activity_favourites">Favourites</string>
+    <string name="title_activity_full_size_fav_image">FullSIzeFAvImage</string>
+    <string name="link">https://play.google.com/store/apps/details?id=pencil.abhishek.io.pencil</string>
+
+    <string name="about_this_app">\n Photocraft provide one of the best Photo Editor which contains many stylish and funny
+                            photo effects such as photo frames,filters,red eye , enhancement and many more.\n \nMake your image look creative without using a proffesional
+                            photo editor(like photoshop) and set it as wallpaper,contact icon or share it to any social network.\n\n Also in this app you can download HD android wallpapers of various catagories
+                            and set it as your wallpaper.For wallpapers  you need an better internet connection.\n\n
+
+                            if you have any problem with this app you can contact here:\n\n
+
+
+
+    </string>
+
+    <string name="email_id"><a href="(abtri2016@gmail.com)">abtri2016@gmail.com</a>
+
+    </string>
+</resources>

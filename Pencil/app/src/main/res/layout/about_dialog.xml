@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <pencil.abhishek.io.pencil.utills.customText3
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PHOTOCRAFT"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/textView3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentTop="true" />
+            <pencil.abhishek.io.pencil.utills.customtext
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView3"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:id="@+id/about"
+                android:layout_centerHorizontal="true"
+                android:text="@string/about_this_app"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/about"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/email_id"
+                android:textColor="#000"
+                android:id="@+id/em"
+                android:linksClickable="true"
+                android:autoLink="email"
+                android:layout_centerHorizontal="true"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="OK"
+                android:textColor="#fff"
+                android:id="@+id/buttonOk"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorAccent"
+                android:layout_below="@+id/em"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

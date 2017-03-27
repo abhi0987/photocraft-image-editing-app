@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="pencil.abhishek.io.pencil.FirstActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/collage">
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/cool_lay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="@color/colorAccent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="149dp"
+            android:id="@+id/relativeLayout"
+            app:cardCornerRadius="3dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+
+                <pencil.abhishek.io.pencil.utills.customText3
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="photocraft"
+                    android:textColor="#fff"
+                    android:id="@+id/textView"
+                    android:textSize="23dp"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="70dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:cardCornerRadius="6dp"
+                android:layout_centerHorizontal="true"
+                app:cardElevation="4dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                app:cardBackgroundColor="@color/colorPrimary"
+                android:id="@+id/layout01"
+                >
+
+                <RelativeLayout
+                    android:id="@+id/lay01"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="55dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimaryDark"
+                        android:elevation="3dp"
+                        >
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/ic_create_white_48dp"/>
+
+                    </RelativeLayout>
+
+
+                    <pencil.abhishek.io.pencil.utills.custmo_text
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="edit images"
+                        android:textColor="#fff"
+                        android:textSize="19dp"
+                        android:id="@+id/textView6"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true" />
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/layout02"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/layout01"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                app:cardCornerRadius="6dp"
+                android:layout_marginTop="15dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@color/primary_wall">
+
+                <RelativeLayout
+                    android:id="@+id/lay02"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="55dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/primary_wall_dark"
+                        android:elevation="3dp">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/ic_wallpaper_white_48dp"/>
+
+                    </RelativeLayout>
+
+
+
+
+
+                    <pencil.abhishek.io.pencil.utills.custmo_text
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="get wallpaper"
+                        android:textColor="#fff"
+                        android:textSize="19dp"
+                        android:id="@+id/textView7"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true" />
+
+
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

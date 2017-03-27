@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="pencil.abhishek.io.pencil.Show_Image"
+    >
+
+    <include layout="@layout/content_show__image" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab2"
+        android:clickable="true"
+        app:backgroundTint="#90000000"
+        app:fab_size="mini"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="top|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_share_white_48dp" />
+
+
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab1"
+        android:clickable="true"
+        app:fab_size="mini"
+        app:backgroundTint="#ff4444"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|start"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_create_white_48dp" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab4"
+        android:clickable="true"
+        app:backgroundTint="@color/colorAccent"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|end"
+        app:fab_size="mini"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_done_white_48dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab3"
+        android:clickable="true"
+        app:backgroundTint="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_done_white_48dp" />
+
+</android.support.design.widget.CoordinatorLayout>

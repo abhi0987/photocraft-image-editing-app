@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="pencil.abhishek.io.pencil.EditActivity"
+    tools:showIn="@layout/activity_edit"
+    android:background="#09090a">
+
+
+
+        <com.pnikosis.materialishprogress.ProgressWheel
+            android:id="@+id/eWheel"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            app:matProg_progressIndeterminate="true"
+            app:matProg_barColor="@color/colorPrimary"/>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recycleview_edit"
+            ></android.support.v7.widget.RecyclerView>
+
+
+
+
+
+
+
+</RelativeLayout>

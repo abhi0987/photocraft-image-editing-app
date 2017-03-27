@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#be394f</color>
+    <color name="colorPrimaryDark">#ab3347</color>
+    <color name="colorAccent">#3269ae</color>
+
+    <color name="DARK">#000</color>
+
+<color name="blue_violet">#8A2BE2</color>
+<color name="blue_violet_dark">#7c26cb</color>
+
+    <color name="blue_light">#3269ae</color>
+    <color name="blue_dark">#1956a4</color>
+
+    <color name="green_light">#3CB371</color>
+    <color name="green_dark">#36a165</color>
+
+
+
+
+     <color name="metal_red">#be394f</color>
+     <color name="metal_red_dark">#ab3347</color>
+
+    <color name="violet_light">#660066</color>
+    <color name="violet_dark">#5b005b</color>
+
+    <color name="red_light">#ff5656</color>
+    <color name="red_dark">#ff4444</color>
+
+
+    <color name="primary_wall">#504c7b</color>
+    <color name="primary_wall_dark">#46436b</color>
+    <color name="wall_accent">#ffae1a</color>
+
+
+    <string-array name="movie_serial_bg">
+        <item>#b5cdd6</item>
+        <item>#c9a1a1</item>
+        <item>#d1b2d1</item>
+        <item>#ffdb99</item>
+        <item>#ffcccc</item>
+        <item>#b4eeb4</item>
+        <item>#c5c5c5</item>
+        <item>#a3a3c5</item>
+        <item>#ffb2ff</item>
+        <item>#CCFF90</item>
+        <item>#BCAAA4</item>
+        <item>#B2EBF2</item>
+        <item>#FF80AB</item>
+
+    </string-array>
+</resources>

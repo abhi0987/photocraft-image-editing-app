@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pencil.abhishek.io.pencil.FirstActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Gallery"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_rating"
+        android:orderInCategory="100"
+        android:title="Rate this app"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="About this app"
+        app:showAsAction="never" />
+
+</menu>

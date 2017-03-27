@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/each">
+        <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:visibility="visible"
+        />
+
+        <RelativeLayout
+         android:id="@+id/blur_lay"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_centerInParent="true"
+         android:background="@drawable/blur_gradient">
+
+            <pencil.abhishek.io.pencil.utills.customtext
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FACEBOOK"
+                android:textColor="#fff"
+                android:textSize="16dp"
+                android:layout_margin="5dp"
+                android:layout_centerInParent="true"
+                android:singleLine="true"
+                android:id="@+id/name"
+                android:layout_marginTop="5dp"
+                />
+
+            <pencil.abhishek.io.pencil.utills.customtext
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30 photos"
+                android:textSize="15dp"
+                android:layout_below="@+id/name"
+                android:singleLine="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#fff"
+                android:id="@+id/count" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+
+
+</android.support.v7.widget.CardView>
+
+
+
